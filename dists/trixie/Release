@@ -1,0 +1,24 @@
+Architectures: amd64 all
+Codename: trixie
+Components: main
+Date: Sun, 27 Sep 2026 06:45:12 +0000
+Description: Pacotes da Colmeia Linux
+Label: Colmeia Linux
+Origin: Colmeia
+Suite: trixie
+MD5Sum:
+ 15b63bad4270059b2b9e4e8aa0c8f842             7204 main/binary-amd64/Packages
+ f7bc60619c8ae4bee6d6498205089598             2345 main/binary-amd64/Packages.gz
+ f9c3d12c58b57eb18f4d1a881f087562             2352 main/binary-amd64/Packages.xz
+SHA1:
+ b796f7332000db0755c4b12ae315b50d000e21fd             7204 main/binary-amd64/Packages
+ 573963694d8560bd4de29244113b5c5f1bc3ae71             2345 main/binary-amd64/Packages.gz
+ c999ce235d7613dba360613e01aed5f3922eb263             2352 main/binary-amd64/Packages.xz
+SHA256:
+ e457e4db252bd13a9e77ed4a0214ac80841e426f3f727db0d2a66917b6404203             7204 main/binary-amd64/Packages
+ fb55c30887e15d09350df948eb7bf2caddd270934973eb25fee0ba505a7b7354             2345 main/binary-amd64/Packages.gz
+ a061af642e7f6d2e3168d8811210a024d523e95df7cba51e5cf81edb96098930             2352 main/binary-amd64/Packages.xz
+SHA512:
+ 86d69630032360d6d44926b16d669d9f58804b9d1e2265cbc21facca33f326bb4b2d5c39420ef6cecd334d9ab05efcc8f2bc977bad049ea899a373c263f3f2c8             7204 main/binary-amd64/Packages
+ 56bbadd9b6df707799206e6d93cc003b46675b92d1135f29a19d76f28b5f8b913bc2fccbbfe284a5d6fbfd4d009063c48e3cc72594ee4ea8cbbe8ca291ede244             2345 main/binary-amd64/Packages.gz
+ 12c9f8d27376dd0774c41b43794a753727f821a7d104728cef780273169657f8fc69eccc4ff0b22c458aa26c7a08dd52f29953c2658b7519762067e1a902eb6e             2352 main/binary-amd64/Packages.xz

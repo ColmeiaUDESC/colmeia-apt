@@ -1,0 +1,121 @@
+Package: colmeia-artwork
+Version: 0.1.0
+Architecture: all
+Maintainer: Colmeia UDESC <colmeiacct@gmail.com>
+Installed-Size: 1838
+Depends: plymouth, plymouth-themes
+Recommends: sddm-theme-breeze, fonts-inter, fonts-cascadia-code
+Filename: pool/main/colmeia-artwork_0.1.0_all.deb
+Size: 1344636
+MD5sum: 4e93ea4fd06b08d5dad8f809fc506dbd
+SHA1: 89fb27f8f1f5a3a0a2c2156a671ee036d5c6d477
+SHA256: 22ba1337b6365df278fb8655c5643e1f46505c79c9f12c0c7eb6a312a31923e5
+Section: misc
+Priority: optional
+Homepage: https://colmeiaudesc.github.io/
+Description: identidade visual da Colmeia Linux
+ Logos, ícones, papéis de parede, esquemas de cores Colmeia Claro e
+ Colmeia Escuro, tema do GRUB, tela de carregamento (Plymouth), tela
+ de login e configuração de fontes. Troca os logos do Debian usados
+ na inicialização pelos da Colmeia.
+
+Package: colmeia-base
+Version: 0.1.0
+Architecture: all
+Maintainer: Colmeia UDESC <colmeiacct@gmail.com>
+Installed-Size: 5
+Depends: base-files
+Filename: pool/main/colmeia-base_0.1.0_all.deb
+Size: 7576
+MD5sum: af0aea152c08000f7ee459fe6cc9d6eb
+SHA1: 4a8c5b6018cef54cb09d68e8b6cd217a4793fcac
+SHA256: 3e5aa97d61981c395c23d6f31a3352d88f0fa6c8df0a0e34cc59d7cebc15852e
+Section: misc
+Priority: important
+Homepage: https://colmeiaudesc.github.io/
+Description: identidade do sistema Colmeia Linux
+ Nome e versão do sistema (os-release, lsb-release, issue, motd),
+ origem do dpkg, "Sobre este sistema" do KDE e os repositórios APT
+ da Colmeia. Os arquivos equivalentes do Debian são desviados com
+ dpkg-divert e voltam se este pacote for removido.
+
+Package: colmeia-desktop
+Version: 0.1.0
+Architecture: all
+Maintainer: Colmeia UDESC <colmeiacct@gmail.com>
+Installed-Size: 634
+Depends: colmeia-base (= 0.1.0), colmeia-artwork (= 0.1.0), plasma-desktop, python3, python3-pyside6.qtcore, python3-pyside6.qtgui, python3-pyside6.qtqml, python3-pyside6.qtquick, python3-pyside6.qtquickcontrols2, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qtcore, qml6-module-qt5compat-graphicaleffects, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-iconthemes, qml6-module-org-kde-coreaddons, qml6-module-org-kde-kcmutils, qml6-module-org-kde-plasma-plasma5support, qt6-svg-plugins, libglib2.0-bin, xdg-user-dirs, fonts-inter, fonts-cascadia-code
+Filename: pool/main/colmeia-desktop_0.1.0_all.deb
+Size: 186688
+MD5sum: a73eb428cb5cb03f9eec41e4e9909af0
+SHA1: a89ab8340469a2d48e85ac86012b74d982674515
+SHA256: d750163aee6d0c1d84802170610c5cf3daf88527331e96834992ce7572ebcca0
+Section: misc
+Priority: optional
+Homepage: https://colmeiaudesc.github.io/
+Description: área de trabalho da Colmeia Linux
+ Painel e barra de tarefas no estilo do Windows 11, Menu Colmeia,
+ relógio, faixa "mostrar área de trabalho", app Boas-vindas, tema
+ global do KDE e configurações padrão de usuários novos.
+ .
+ Os ajustes feitos em componentes do KDE são reaplicados sozinhos
+ (gatilhos do dpkg) sempre que o KDE for atualizado.
+
+Package: libplasma6
+Source: libplasma
+Version: 6.3.5-1+colmeia1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 472
+Depends: libc6 (>= 2.14), libkf6colorscheme6 (>= 6.0.0), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configqml6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6globalaccel6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6iconthemes6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6windowsystem6 (>= 6.10.0~), libplasmaactivities6 (>= 6.3.4~), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libxcb1
+Filename: pool/main/libplasma6_6.3.5-1+colmeia1_amd64.deb
+Size: 135756
+MD5sum: df8836c42abd785e0991281a63beba1d
+SHA1: c8202dd51db1249b41a6383f0945238a4e674c9b
+SHA256: 794fb4b4cc1f3389ab09390626aab1aeb0f4c0195d814ac20fe55b3305e254bf
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://invent.kde.org/plasma/libplasma
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF6 and Qt 6.
+
+Package: libplasmaquick6
+Source: libplasma
+Version: 6.3.5-1+colmeia1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 722
+Depends: kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.10.0~), libkf6configgui6 (>= 6.10.0~), libkf6configqml6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6guiaddons6 (>= 6.10.0~), libkf6i18n6 (>= 6.10.0~), libkf6i18nqml6 (>= 6.10.0~), libkf6kcmutilsquick6 (>= 6.10.0~), libkf6kiocore6 (>= 6.10.0~), libkf6kiowidgets6 (>= 6.10.0~), libkf6notifications6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6svg6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.2.0~), libkf6windowsystem6 (>= 6.10.0~), libplasma6 (>= 6.1.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6waylandclient6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 5), libwayland-client0 (>= 1.20.0)
+Filename: pool/main/libplasmaquick6_6.3.5-1+colmeia1_amd64.deb
+Size: 195064
+MD5sum: eb9fb6da06d7088633abce8aa942c3fa
+SHA1: 44d8e92e8816e06e94a828a05f33129d5eb79fc3
+SHA256: 308da96ac754de379ef6e8d17c032f95532746000ae854fd68589cad14c44e7e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://invent.kde.org/plasma/libplasma
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF6 and Qt 6.
+
+Package: plasma-desktoptheme
+Source: libplasma
+Version: 6.3.5-1+colmeia1
+Architecture: amd64
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Installed-Size: 4866
+Depends: qml6-module-org-kde-kirigami, qml6-module-org-kde-ksvg, qml6-module-qt5compat-graphicaleffects, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtquick-templates, qml6-module-qtquick-tooling, qml6-module-qtquick-window, libc6 (>= 2.32), libegl1, libgcc-s1 (>= 3.0), libglx0, libkf6colorscheme6 (>= 6.0.0), libkf6configcore6 (>= 6.10.0~), libkf6coreaddons6 (>= 6.10.0~), libkf6i18nqml6 (>= 6.10.0~), libkf6iconthemes6 (>= 6.10.0~), libkf6package6 (>= 6.10.0~), libkf6widgetsaddons6 (>= 6.2.0~), libkf6windowsystem6 (>= 6.10.0~), libkirigamiplatform6 (>= 6.10.0~), libopengl0, libplasma6 (>= 6.1.0), libplasmaquick6 (>= 6.1.90), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.7.0~), libqt6qml6 (>= 6.7.0~), libqt6quick6 (>= 6.7.0~), libqt6widgets6 (>= 6.7.0~), libstdc++6 (>= 5), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-render0, libxcb1
+Breaks: plasma-framework (<< 5.115.0-6~)
+Replaces: plasma-framework (<< 5.115.0-6~)
+Filename: pool/main/plasma-desktoptheme_6.3.5-1+colmeia1_amd64.deb
+Size: 1783540
+MD5sum: 28222c6c3e0f268210d3249c294549bf
+SHA1: 310133fcf1593dfe467c4ef54e400f97cb8a5fba
+SHA256: f862d21472d8e5945a141043ec7fc3e25db7a1febbc13efc2ddc8197c227b508
+Section: libs
+Priority: optional
+Homepage: https://invent.kde.org/plasma/libplasma
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF6 and Qt 6.
+
