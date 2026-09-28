@@ -1,9 +1,9 @@
 # colmeia-apt
 
-Repositório APT oficial da **Colmeia Linux**, a distribuição do grupo de extensão
+Repositório APT oficial do **Colmeia Linux**, a distribuição do grupo de extensão
 [Colmeia](https://colmeiaudesc.github.io/) da UDESC.
 
-Daqui vêm as atualizações dos pacotes próprios da Colmeia. Quem instalou a Colmeia
+Daqui vêm as atualizações dos pacotes próprios do Colmeia. Quem instalou o Colmeia
 já usa este repositório e recebe as novidades com `sudo apt update && sudo apt upgrade`
 ou pelo Discover. **Não é preciso fazer nada.**
 
@@ -22,7 +22,7 @@ Todos são para Debian 13 (trixie), `amd64`.
 
 ## Assinatura
 
-Os índices são assinados com a chave da Colmeia. Confira a impressão digital:
+Os índices são assinados com a chave do Colmeia. Confira a impressão digital:
 
 ```
 Colmeia Linux (repositório APT) <colmeiacct@gmail.com>
